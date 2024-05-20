@@ -12,7 +12,7 @@ The visualization of our proposed NR-IAM in T1 and T2 modality on [BraTS-Reg](ht
 
 <img src="./Visualization_results/T1andT2_results.png" width="900px">
 
-Furthermore, we also evaluated the generalization performance of our method on the other organs, i.e., 3D liver CT [AWS_liver]([https://www.med.upenn.edu/cbica/brats-reg-challenge](http://medicaldecathlon.com/dataaws/)). We preprocessed the dataset by:
+Furthermore, we also evaluated the generalization performance of our method on the other organs, i.e., 3D liver CT [AWS_liver](http://medicaldecathlon.com/dataaws/) dataset. We preprocessed the dataset by:
   - extracting the whole liver using the segmentation mask 
   - affinely-pregistering other scans onto Liver_62
   - truncating the image with intensity value below the zero
