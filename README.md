@@ -5,7 +5,7 @@ This is the implementation of the NR-IAM: **Noise Removed Inconsistency Activati
 ### Inconsistency locating in the initial training phase.
 To test the inconsistency-locating accuracy in the initial phase of training, we picked out 4 checkpoint after 10, 100, 500 and 1000 training iteration, and then visualize the warped image and inconsitency map. The results as below shows the great stability and precision of our NR-IAM in locating inconsistency even during the early training stage.
 
-<img src="./Visualization_results/Early_stage_results.png" width="600px">
+<img src="./Visualization_results/Early_stage results.png" width="600px">
 
 ### Generability to other modality and organ
 The visualization of our proposed NR-IAM in T1 and T2 modality on [BraTS-Reg dataset](https://www.med.upenn.edu/cbica/brats-reg-challenge). The regions hilighted in the yellow box prove that our NR-IAM can precisely locate the inconsistency across different MRI modality on BraTS-Reg.
