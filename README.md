@@ -8,11 +8,11 @@ To test the inconsistency-locating accuracy in the initial phase of training, we
 <img src="./Visualization_results/Early_stage results.png" width="600px">
 
 ### Generability to other modality and organ
-The visualization of our proposed NR-IAM in T1 and T2 modality on [BraTS-Reg dataset](https://www.med.upenn.edu/cbica/brats-reg-challenge). The regions hilighted in the yellow box prove that our NR-IAM can precisely locate the inconsistency across different MRI modality on BraTS-Reg.
+The visualization of our proposed NR-IAM in T1 and T2 modality on [BraTS-Reg](https://www.med.upenn.edu/cbica/brats-reg-challenge) dataset. The regions hilighted in the yellow box prove that our NR-IAM can precisely locate the inconsistency across different MRI modality on BraTS-Reg.
 
 <img src="./Visualization_results/T1andT2_results.png" width="900px">
 
-Furthermore, we also evaluated the generalization performance of our method on the other organs, i.e., 3D liver CT. We preprocessed the dataset by:
+Furthermore, we also evaluated the generalization performance of our method on the other organs, i.e., 3D liver CT [AWS_liver]([https://www.med.upenn.edu/cbica/brats-reg-challenge](http://medicaldecathlon.com/dataaws/)). We preprocessed the dataset by:
   - extracting the whole liver using the segmentation mask 
   - affinely-pregistering other scans onto Liver_62
   - truncating the image with intensity value below the zero
