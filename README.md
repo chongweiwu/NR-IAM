@@ -13,12 +13,10 @@ The visualization of our proposed NR-IAM in T1 and T2 modality on [BraTS-Reg dat
 <img src="./Visualization_results/T1andT2_results.png" width="900px">
 
 Furthermore, we also evaluated the generalization performance of our method on the other organs, i.e., 3D liver CT. We preprocessed the dataset by:
-  - extracting the whole tumor using the segmentation mask 
+  - extracting the whole liver using the segmentation mask 
   - affinely-pregistering other scans onto Liver_62
-  - truncating
-
-truncating
-normalizing all the cases. 
+  - truncating the image with intensity value below the zero
+  - min-max normalization
 The visualization results are shown below.
 
 <img src="./Visualization_results/Liver_tumor_results.png" width="900px">
