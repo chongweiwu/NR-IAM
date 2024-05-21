@@ -8,7 +8,7 @@ To test the inconsistency-locating accuracy in the initial phase of training, we
 
 <!-- <img src="./Visualization_results/Early_stage results.png" width="600px"> -->
 
-<img src="./Visualization/Early_stage_results.pdf" width="600px">
+<img src="./Visualization/Early_stage_results.pdf"" width="900px">
 
 ### Visualization results of IAM and NR-IAM.
 To present the denoising performance of our NMP process, we picked out 4 subjects and visulized their corresponding IAMs and NR-IAMs as follows.
