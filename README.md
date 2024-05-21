@@ -5,7 +5,10 @@ This is the implementation of the NR-IAM: **Noise Removed Inconsistency Activati
 ### Inconsistency locating in the initial training phase.
 To test the inconsistency-locating accuracy in the initial phase of training, we picked out 4 checkpoint after 10, 100, 500 and 1000 training iteration, and then visualize the warped image and inconsitency map. The results as below shows the great stability and precision of our NR-IAM in locating inconsistency even during the early training stage.
 
-<img src="./Visualization_results/Early_stage results.png" width="600px">
+
+<!-- <img src="./Visualization_results/Early_stage results.png" width="600px"> -->
+
+<img src="./Visualization/Early_stage results.png" width="600px">
 
 ### Visualization results of IAM and NR-IAM.
 To present the denoising performance of our NMP process, we picked out 4 subjects and visulized their corresponding IAMs and NR-IAMs as follows.
