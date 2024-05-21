@@ -15,7 +15,7 @@ To present the denoising performance of our NMP process, we picked out 4 subject
 ### Generability to other modality and organ
 The visualization of our proposed NR-IAM in T1 and T2 modality on [BraTS-Reg](https://www.med.upenn.edu/cbica/brats-reg-challenge) dataset. The regions hilighted in the yellow box prove that our NR-IAM can precisely locate the inconsistency across different MRI modality on BraTS-Reg.
 
-<img src="./Visualization_results/T1andT2_results.png" width="900px">
+<img src="./visualization/T1andT2_results.jpg" width="900px">
 
 Furthermore, we also evaluated the generalization performance of our method on the other organs, i.e., 3D liver CT [AWS_liver](http://medicaldecathlon.com/dataaws/) dataset. We preprocessed the dataset by:
   - extracting the whole liver using the segmentation mask 
@@ -25,4 +25,4 @@ Furthermore, we also evaluated the generalization performance of our method on t
 
 The visualization results are shown below.
 
-<img src="./Visualization_results/Liver_tumor_results.png" width="900px">
+<img src="./visualization/Liver_tumor_results.jpg" width="900px">
