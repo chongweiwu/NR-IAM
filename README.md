@@ -7,6 +7,11 @@ To test the inconsistency-locating accuracy in the initial phase of training, we
 
 <img src="./Visualization_results/Early_stage results.png" width="900px">
 
+### Visualization results of IAM and NR-IAM.
+To present the denoising performance of our NMP process, we picked out 4 subjects and visulized their corresponding IAMs and NR-IAMs as follows.
+
+<img src="./Visualization_results/IAM&NR-IAM results.png" width="900px">
+
 ### Generability to other modality and organ
 The visualization of our proposed NR-IAM in T1 and T2 modality on [BraTS-Reg](https://www.med.upenn.edu/cbica/brats-reg-challenge) dataset. The regions hilighted in the yellow box prove that our NR-IAM can precisely locate the inconsistency across different MRI modality on BraTS-Reg.
 
